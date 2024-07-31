@@ -108,7 +108,7 @@ Payments.get().then((response) => {
 .catch((error) => {
     //Track error to notify the sysaddmin
     AnalyticsSender.trackException(
-    'Error on get payments at financial status controller.',
+    'Error on get payments.',
     error
     );
 });
@@ -123,7 +123,7 @@ function save(event) {
         EventOrigin: $stateParams.from_page,
       });
 
-      //exeutes more code
+      //executes the code
 }
 ```
 
