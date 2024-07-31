@@ -1,2 +1,2 @@
 # angularjs-analytics
-An angular js analytics template for multiple analytic providers providers.
+An example angular js analytics template for multiple analytic providers.
